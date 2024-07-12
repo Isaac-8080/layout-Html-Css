@@ -1,0 +1,50 @@
+div.nav-layout{
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.hero-layout{
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.flex-one,
+.flex-two,
+.flex-three{
+    height: 30vh;
+    width: 30%;
+}
+
+div.flex-display{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* gap: 10px; */
+}
+
+div.footer-layout{
+    height: 15vh;
+    width: 100%;
+}
+
+div.layouts-bg{
+    background-color: rgb(94, 189, 221);
+}
+
+@media only screen and (max-width : 600px) {
+    div.flex-display{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .flex-one,
+    .flex-two,
+    .flex-three{
+        height: 30vh;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
